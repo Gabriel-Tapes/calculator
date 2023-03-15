@@ -1,38 +1,3 @@
-.calculator {
-  height: 30rem;
-  width: 20rem;
-
-  border: 2px #a7a7a7 solid;
-  border-radius: 10px;
-
-  display: flex;
-  flex-direction: column;
-
-  justify-content: center;
-  align-items: center;
-}
-
-.prompt input {
-  width: 15rem;
-  height: 5rem;
-  background-color: #000;
-  border-radius: 10px;
-  padding: 0.8rem;
-  color: #a7a7a7;
-  text-align: end;
-  font-size: 2rem;
-  caret-color: #0000;
-  -moz-appearance: textfield;
-  -webkit-appearance: none;
-  appearance: textfield;
-}
-
-.prompt input:focus {
-  box-shadow: none;
-  outline: 0;
-  background-color: #0f0f0f;
-}
-
 .keyboard {
   margin: 1.25rem;
   display: grid;

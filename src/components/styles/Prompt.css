@@ -1,0 +1,20 @@
+.prompt input {
+  width: 15rem;
+  height: 5rem;
+  background-color: #000;
+  border-radius: 10px;
+  padding: 0.8rem;
+  color: #a7a7a7;
+  text-align: end;
+  font-size: 2rem;
+  caret-color: #0000;
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+  appearance: textfield;
+}
+
+.prompt input:focus {
+  box-shadow: none;
+  outline: 0;
+  background-color: #0f0f0f;
+}
