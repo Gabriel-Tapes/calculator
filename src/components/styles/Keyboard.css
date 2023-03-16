@@ -19,13 +19,12 @@
   font-size: 1.25rem;
   font-weight: 400;
   text-align: center;
-
-  padding-top: 0.4rem;
 }
 
 .keyboard button:hover {
   border-color: #585858;
   font-size: 1.05rem;
+  cursor: pointer;
 }
 
 .keyboard button:active {

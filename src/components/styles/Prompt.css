@@ -13,8 +13,21 @@
   appearance: textfield;
 }
 
+.prompt .expression {
+  color: #a7a7a7d2;
+  background-color: transparent;
+  width: 15rem;
+  padding: 0.4rem 0.8rem;
+
+  position: absolute;
+  z-index: 1;
+  text-align: end;
+}
+
 .prompt input:focus {
   box-shadow: none;
   outline: 0;
   background-color: #0f0f0f;
+
+  position: relative;
 }
